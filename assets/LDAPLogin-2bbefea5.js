@@ -1,0 +1,1 @@
+import{a as n,h as r,i as c,j as u,o as i,c as p,u as o,k as _}from"./index-55faa955.js";const l={__name:"LDAPLogin",setup(m){const t=n(),s=r({code:c().query.code});function a(){o().remove(),_.post("/api/auth/sigin",s).then(e=>{o().reset(e),t.push("/table")})}return u(()=>{a()}),(e,f)=>(i(),p("div"))}};export{l as default};
